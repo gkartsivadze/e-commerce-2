@@ -1,0 +1,79 @@
+:root {
+    --primary-1: #FFFFFF;
+    --primary-2: #363738;
+
+    --text-1: #FAFAFA;
+    --text-2: #7D8184;
+    --button: #000000;
+
+    --secondary-1: #F5F5F5;
+    --secondary-2: #FEFAF1;
+    --secondary-3: #DB4444;
+
+    --button-green: #47B486;
+    --button-red: #DB4444;
+    --button-red-hover: #E07575;
+    --button-hover: #A0BCE0;
+
+    --background-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root,
+textarea,
+input,
+button {
+    font-family: inter;
+}
+
+nav {
+    .navigation_top {
+        background-color: var(--button);
+        color: var(--text-1);
+        padding-block: 12px;
+
+        text-align: center;
+
+        select {
+            float: right;
+        }
+
+        a {
+            color: var(--primary-1);
+        }
+        
+    }
+    #logo {
+        margin-right: 112px;
+    }
+
+    .navigation_main {
+        display: flex;
+        justify-content: space-between;
+        padding-block: 40px 16px;
+
+        .left {
+            a {
+                color: black;
+                margin-left: 48px;
+            }
+        }
+
+        .right {
+            gap: 16px;
+
+            .custom_search_input {
+                margin-right: 8px;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: var(--button);
+    color: var(--text-1);
+}

@@ -1,0 +1,35 @@
+.default-padding {
+    padding-inline: 136px;
+}
+
+.flex-vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.custom_search_input {
+    background-color: var(--secondary-1);
+    border-radius: 4px;
+    padding: 7px 12px;
+    display: flex;
+
+    &:focus-within {
+        outline: 1px solid black
+    }
+
+    input {
+        background-color: transparent;
+        border: none;
+        padding: 3px;
+        outline: none;
+
+        flex: 1 1 auto;
+    }
+}
