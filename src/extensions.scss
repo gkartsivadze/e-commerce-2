@@ -78,7 +78,37 @@ button {
 }
 
 .item_card {
+    position: relative;
+    width: 270px;
+
     img {
         padding: 35px 40px;
+    }
+
+    .price {
+        color: var(--secondary-3);
+    }
+
+    .old_price {
+        color: var(--text-2);
+        text-decoration: line-through;
+    }
+
+    .flex-vertical-align {
+        gap: 1rem 0.25rem;
+
+        flex-wrap: wrap;
+    }
+
+    .new_item {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+
+        background-color: var(--button-green);
+        color: white;
+
+        border-radius: 0.25rem;
+        padding: 0.25rem 0.75rem;
     }
 }
