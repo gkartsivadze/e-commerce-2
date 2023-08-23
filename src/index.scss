@@ -5,6 +5,7 @@
     --text-1: #FAFAFA;
     --text-2: #7D8184;
     --button: #000000;
+    --button-300: #00000030;
 
     --secondary-1: #F5F5F5;
     --secondary-2: #FEFAF1;
@@ -16,6 +17,8 @@
     --button-hover: #A0BCE0;
 
     --background-color: #FFFFFF;
+
+    --logo-color: white;
 }
 
 * {
@@ -66,7 +69,7 @@ nav {
         .right {
             gap: 16px;
 
-            .custom_search_input {
+            .custom_input {
                 margin-right: 8px;
             }
         }
@@ -76,4 +79,22 @@ nav {
 footer {
     background-color: var(--button);
     color: var(--text-1);
+
+    display: flex;
+    gap: 80px;
+
+    padding-block: 5rem;
+
+    .logo {
+        margin-bottom: 2rem;
+    }
+
+    ul {
+        list-style: none;
+
+        display: grid;
+        gap: 1rem;
+
+        margin-top: 1rem;
+    }
 }

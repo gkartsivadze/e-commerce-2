@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
 import logoSvg from "../../public/logo.svg"
-import SearchInput from "./custom/SearchInput";
 import { FaCartArrowDown, FaHeart, FaPerson } from "react-icons/fa6";
+import CustomInput from "../components/custom/CustomInput";
 
 export default function Navigation() {
     return (
@@ -23,7 +23,7 @@ export default function Navigation() {
                     <Link>Sign Up</Link>
                 </div>
                 <div className="right flex-vertical-align">
-                    <SearchInput />
+                    <CustomInput />
                     <FaHeart />
                     <FaCartArrowDown />
                     <FaPerson />

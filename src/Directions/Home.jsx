@@ -1,5 +1,9 @@
+import ItemCard from "../components/custom/ItemCard";
+
+import { items } from "../data.json"
+
 export default function Home(params) {
     return (
-        <div>Home</div>
+        <ItemCard data={items[1]} />
     )
 };

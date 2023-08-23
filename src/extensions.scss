@@ -7,6 +7,11 @@
     align-items: center;
 }
 
+.flex-horizontal-align {
+    display: flex;
+    justify-content: center;
+}
+
 button {
     border: none;
     background-color: transparent;
@@ -14,11 +19,18 @@ button {
     cursor: pointer;
 }
 
-.custom_search_input {
-    background-color: var(--secondary-1);
+.custom_input {
     border-radius: 4px;
     padding: 7px 12px;
     display: flex;
+
+    &.email {
+        border: 1px solid var(--primary-1);
+
+        input {
+            color: var(--primary-1);
+        }
+    }
 
     &:focus-within {
         outline: 1px solid black
@@ -31,5 +43,42 @@ button {
         outline: none;
 
         flex: 1 1 auto;
+    }
+}
+
+.category_card {
+    padding: 2rem 3.5rem;
+    border: 1px solid var(--button-300);
+
+    width: fit-content;
+
+    border-radius: 0.25rem;
+
+    transition: 0.3s;
+
+    &:hover {
+        color: var(--primary-1);
+        background-color: var(--secondary-3);
+
+        img {
+            filter: invert(1)
+        }
+    }
+
+    img {
+        width: 3.5rem;
+        height: 3.5rem;
+
+        object-fit: cover;
+    }
+
+    p {
+        margin-top: 1rem;
+    }
+}
+
+.item_card {
+    img {
+        padding: 35px 40px;
     }
 }
