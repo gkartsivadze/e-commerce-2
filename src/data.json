@@ -1,144 +1,256 @@
 {
-    "items": [
-      {
-        "id": 1,
-        "name": "Example Phone",
-        "category": "Phones",
-        "statistics": {
-          "rating": 4.5,
-          "num_reviews": 120
-        },
-        "image": "phone_image.jpg",
-        "price": 599.99,
-        "discount": 0.15,
-        "colors_available": ["Black", "Silver", "Gold"],
-        "new": true
+  "items": [
+    {
+      "id": 1,
+      "name": "Example Phone",
+      "category": "Phones",
+      "statistics": {
+        "rating": 4.5,
+        "num_reviews": 120
       },
-      {
-        "id": 2,
-        "name": "Gaming Laptop",
-        "category": "Computers",
-        "statistics": {
-          "rating": 4.8,
-          "num_reviews": 85
+      "image": "phone_image.jpg",
+      "price": 599.99,
+      "discount": 0.15,
+      "colors_available": [
+        {
+          "id": 21,
+          "name": "Black"
         },
-        "image": "laptop_image.jpg",
-        "price": 1499.99,
-        "discount": 0.10,
-        "colors_available": ["Black", "RGB"],
-        "new": false
+        {
+          "id": 25,
+          "name": "Silver"
+        },
+        {
+          "id": 23,
+          "name": "Gold"
+        }
+      ],
+      "new": true
+    },
+    {
+      "id": 2,
+      "name": "Gaming Laptop",
+      "category": "Computers",
+      "statistics": {
+        "rating": 4.8,
+        "num_reviews": 85
       },
-      {
-        "id": 3,
-        "name": "SmartWatch Pro",
-        "category": "SmartWatch",
-        "statistics": {
-          "rating": 4.2,
-          "num_reviews": 50
+      "image": "laptop_image.jpg",
+      "price": 1499.99,
+      "discount": 0.10,
+      "colors_available": [
+        {
+          "id": 21,
+          "name": "Black"
         },
-        "image": "smartwatch_image.jpg",
-        "price": 199.99,
-        "discount": 0.20,
-        "colors_available": ["Silver", "Rose Gold"],
-        "new": true
+        {
+          "id": 6,
+          "name": "Green"
+        }
+      ],
+      "new": false
+    },
+    {
+      "id": 3,
+      "name": "SmartWatch Pro",
+      "category": "SmartWatch",
+      "statistics": {
+        "rating": 4.2,
+        "num_reviews": 50
       },
-      {
-        "id": 4,
-        "name": "Professional Camera",
-        "category": "Camera",
-        "statistics": {
-          "rating": 4.9,
-          "num_reviews": 95
+      "image": "smartwatch_image.jpg",
+      "price": 199.99,
+      "discount": 0.20,
+      "colors_available": [
+        {
+          "id": 25,
+          "name": "Silver"
         },
-        "image": "camera_image.jpg",
-        "price": 1299.99,
-        "discount": 0.12,
-        "colors_available": ["Black"],
-        "new": false
+        {
+          "id": 23,
+          "name": "Gold"
+        }
+      ],
+      "new": true
+    },
+    {
+      "id": 4,
+      "name": "Professional Camera",
+      "category": "Camera",
+      "statistics": {
+        "rating": 4.9,
+        "num_reviews": 95
       },
-      {
-        "id": 5,
-        "name": "Noise-Canceling Headphones",
-        "category": "HeadPhones",
-        "statistics": {
-          "rating": 4.7,
-          "num_reviews": 70
-        },
-        "image": "headphones_image.jpg",
-        "price": 249.99,
-        "discount": 0.18,
-        "colors_available": ["Black", "White"],
-        "new": true
+      "image": "camera_image.jpg",
+      "price": 1299.99,
+      "discount": 0.12,
+      "colors_available": [
+        {
+          "id": 21,
+          "name": "Black"
+        }
+      ],
+      "new": false
+    },
+    {
+      "id": 5,
+      "name": "Noise-Canceling Headphones",
+      "category": "HeadPhones",
+      "statistics": {
+        "rating": 4.7,
+        "num_reviews": 70
       },
-      {
-        "id": 6,
-        "name": "Gaming Console",
-        "category": "Gaming",
-        "statistics": {
-          "rating": 4.6,
-          "num_reviews": 105
+      "image": "headphones_image.jpg",
+      "price": 249.99,
+      "discount": 0.18,
+      "colors_available": [
+        {
+          "id": 21,
+          "name": "Black"
         },
-        "image": "gaming_console_image.jpg",
-        "price": 399.99,
-        "discount": 0.08,
-        "colors_available": ["Black"],
-        "new": false
+        {
+          "id": 12,
+          "name": "White"
+        }
+      ],
+      "new": true
+    },
+    {
+      "id": 6,
+      "name": "Gaming Console",
+      "category": "Gaming",
+      "statistics": {
+        "rating": 4.6,
+        "num_reviews": 105
       },
-      {
-        "id": 7,
-        "name": "UltraBook",
-        "category": "Computers",
-        "statistics": {
-          "rating": 4.7,
-          "num_reviews": 92
-        },
-        "image": "ultrabook_image.jpg",
-        "price": 1199.99,
-        "discount": 0.15,
-        "colors_available": ["Silver", "Rose Gold"],
-        "new": true
+      "image": "gaming_console_image.jpg",
+      "price": 399.99,
+      "discount": 0.08,
+      "colors_available": [
+        {
+          "id": 21,
+          "name": "Black"
+        }
+      ],
+      "new": false
+    },
+    {
+      "id": 7,
+      "name": "UltraBook",
+      "category": "Computers",
+      "statistics": {
+        "rating": 4.7,
+        "num_reviews": 92
       },
-      {
-        "id": 8,
-        "name": "Fitness SmartWatch",
-        "category": "SmartWatch",
-        "statistics": {
-          "rating": 4.4,
-          "num_reviews": 64
+      "image": "ultrabook_image.jpg",
+      "price": 1199.99,
+      "discount": 0.15,
+      "colors_available": [
+        {
+          "id": 25,
+          "name": "Silver"
         },
-        "image": "fitness_smartwatch_image.jpg",
-        "price": 159.99,
-        "discount": 0.10,
-        "colors_available": ["Black", "Blue"],
-        "new": false
+        {
+          "id": 23,
+          "name": "Gold"
+        }
+      ],
+      "new": true
+    },
+    {
+      "id": 8,
+      "name": "Fitness SmartWatch",
+      "category": "SmartWatch",
+      "statistics": {
+        "rating": 4.4,
+        "num_reviews": 64
       },
-      {
-        "id": 9,
-        "name": "Compact Digital Camera",
-        "category": "Camera",
-        "statistics": {
-          "rating": 4.3,
-          "num_reviews": 78
+      "image": "fitness_smartwatch_image.jpg",
+      "price": 159.99,
+      "discount": 0.10,
+      "colors_available": [
+        {
+          "id": 21,
+          "name": "Black"
         },
-        "image": "compact_camera_image.jpg",
-        "price": 299.99,
-        "discount": 0.20,
-        "colors_available": ["Black"],
-        "new": true
+        {
+          "id": 16,
+          "name": "Blue"
+        }
+      ],
+      "new": false
+    },
+    {
+      "id": 9,
+      "name": "Compact Digital Camera",
+      "category": "Camera",
+      "statistics": {
+        "rating": 4.3,
+        "num_reviews": 78
       },
-      {
-        "id": 10,
-        "name": "Wireless Earbuds",
-        "category": "HeadPhones",
-        "statistics": {
-          "rating": 4.8,
-          "num_reviews": 56
+      "image": "compact_camera_image.jpg",
+      "price": 299.99,
+      "discount": 0.20,
+      "colors_available": [
+        {
+          "id": 21,
+          "name": "Black"
+        }
+      ],
+      "new": true
+    },
+    {
+      "id": 10,
+      "name": "Wireless Earbuds",
+      "category": "HeadPhones",
+      "statistics": {
+        "rating": 4.8,
+        "num_reviews": 56
+      },
+      "image": "earbuds_image.jpg",
+      "price": 129.99,
+      "discount": 0.08,
+      "colors_available": [
+        {
+          "id": 21,
+          "name": "Black"
         },
-        "image": "earbuds_image.jpg",
-        "price": 129.99,
-        "discount": 0.08,
-        "colors_available": ["Black", "White", "Red"],
-        "new": false
-      }
-    ]
+        {
+          "id": 12,
+          "name": "White"
+        },
+        {
+          "id": 17,
+          "name": "Red"
+        }
+      ],
+      "new": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "c1",
+      "name": "Phones"
+    },
+    {
+      "id": "c2",
+      "name": "Computers"
+    },
+    {
+      "id": "c3",
+      "name": "SmartWatch"
+    },
+    {
+      "id": "c4",
+      "name": "Camera"
+    },
+    {
+      "id": "c5",
+      "name": "HeadPhones"
+    },
+    {
+      "id": "c6",
+      "name": "Gaming"
+    }
+  ]
 }

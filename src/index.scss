@@ -24,6 +24,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root,
@@ -97,4 +98,56 @@ footer {
 
         margin-top: 1rem;
     }
+}
+
+#slider_section {
+    display: flex;
+
+    aside {
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        border-right: 1px solid var(--text-2);
+
+        label {
+            width: 250px;
+        }
+    }
+}
+
+#slider_wrapper {
+    width: 100%;
+    color: var(--text-1);
+    overflow: hidden;
+    
+    margin: 3rem;
+    
+    .slider_item {
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--button);
+        height: 100%;
+
+        user-select: none;
+        .left {
+            display: grid;
+            align-content: center;
+            gap: 1rem;
+            padding-inline: 2rem;
+            font-size: 3rem;
+        }
+    }
+
+}
+
+#slider {
+    --position-x: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+
+    transform: translate(var(--position-x))
 }

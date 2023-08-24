@@ -1,9 +1,16 @@
+import AsideNavigation from "../components/AsideNavigation";
+import ImageSlider from "../components/ImageSlider";
 import ItemCard from "../components/custom/ItemCard";
 
-import { items } from "../data.json"
+import { items, categories } from "../data.json"
 
-export default function Home(params) {
+export default function Home() {
     return (
-        <ItemCard data={items[1]} />
+        <>
+            <section id="slider_section">
+                <AsideNavigation categories={categories} />
+                <ImageSlider />
+            </section>
+        </>
     )
 };

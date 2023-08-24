@@ -8,7 +8,7 @@ export default function Statistics({ statistics }) {
         <span>
             {[...yellowStars, ...emptyStars]}
         </span>
-        <span>({ statistics.num_reviews })</span>
+        <span className="text-grey">({ statistics.num_reviews })</span>
     </span>
     )
 };
